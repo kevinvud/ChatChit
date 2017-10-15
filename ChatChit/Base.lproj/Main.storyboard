@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2lq-Oq-gcl">
-                                <rect key="frame" x="36" y="70" width="303" height="91"/>
+                                <rect key="frame" x="36" y="170" width="303" height="91"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ky0-mR-z8a">
                                         <rect key="frame" x="0.0" y="0.0" width="303" height="36"/>
@@ -40,7 +40,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TdG-iN-66L">
-                                <rect key="frame" x="162.5" y="171" width="50" height="50"/>
+                                <rect key="frame" x="162.5" y="271" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="aJw-59-heL"/>
                                     <constraint firstAttribute="height" constant="50" id="ajl-gK-dXq"/>
@@ -55,15 +55,16 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="2lq-Oq-gcl" secondAttribute="trailing" constant="20" id="7eA-bA-0xc"/>
-                            <constraint firstItem="2lq-Oq-gcl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="De4-nm-lCc"/>
+                            <constraint firstItem="2lq-Oq-gcl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="9Kk-LR-NTI"/>
+                            <constraint firstItem="aWZ-wv-1Yn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Gue-Kp-QAS"/>
                             <constraint firstItem="TdG-iN-66L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OUE-bS-pe7"/>
+                            <constraint firstAttribute="trailing" secondItem="aWZ-wv-1Yn" secondAttribute="trailing" id="SCq-8p-b5V"/>
                             <constraint firstItem="2lq-Oq-gcl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="VUA-45-lRb"/>
                             <constraint firstItem="aWZ-wv-1Yn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="XcU-ie-QE1"/>
                             <constraint firstItem="2lq-Oq-gcl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aUV-VR-tD3"/>
                             <constraint firstItem="TdG-iN-66L" firstAttribute="top" secondItem="2lq-Oq-gcl" secondAttribute="bottom" constant="10" id="b0d-KN-DxL"/>
-                            <constraint firstItem="aWZ-wv-1Yn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eLY-HR-thM"/>
-                            <constraint firstItem="aWZ-wv-1Yn" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="mDk-Xa-gtE"/>
-                            <constraint firstItem="aWZ-wv-1Yn" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="sqS-HI-s8r"/>
+                            <constraint firstAttribute="bottom" secondItem="aWZ-wv-1Yn" secondAttribute="bottom" id="gkm-7T-sVg"/>
+                            <constraint firstItem="aWZ-wv-1Yn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="h7R-Ry-RTv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

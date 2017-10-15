@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class ChatVC: UIViewController {
 
@@ -16,6 +17,10 @@ class ChatVC: UIViewController {
         
     }
     @IBAction func logoutButtonPressed(_ sender: Any) {
+        
+        sigout()
+        
+        print(Auth.auth().currentUser)
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
@@ -27,6 +32,13 @@ class ChatVC: UIViewController {
         
     }
     
-    
+    func sigout(){
+        do{
+            try Auth.auth().signOut()
+        } catch{
+            print(error)
+        }
+        
+    }
 
 }
